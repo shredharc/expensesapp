@@ -5,7 +5,7 @@ import mysql.connector
 from colorama import Fore, Style, init
 
 init(autoreset=True)
-"""test comment"""
+#test comment
 
 db = mysql.connector.connect(
     host="localhost",
