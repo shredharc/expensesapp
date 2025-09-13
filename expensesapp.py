@@ -6,7 +6,7 @@ from colorama import Fore, Style, init
 
 init(autoreset=True)
 
-# Connect to MySQL
+# Connect asdf to MySQL
 db = mysql.connector.connect(
     host="localhost",
     user="root",
