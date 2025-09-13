@@ -5,8 +5,11 @@ import mysql.connector
 from colorama import Fore, Style, init
 
 init(autoreset=True)
+"""test comment"""
+
 
 # Connect asdf to MySQL
+
 db = mysql.connector.connect(
     host="localhost",
     user="root",
